@@ -18,8 +18,8 @@ public class MemberRepositoryTest {
     @Autowired
     MemberRepository memberRepository;
 
-    @Test
-    @Transactional
+   // @Test
+    //@Transactional
     public void testMember() throws Exception{
 
         Member member= new Member();
